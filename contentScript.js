@@ -10,4 +10,10 @@
             newVideoLoaded();
         }
     });
+    const newVideoLoaded = () => {
+        const bookmarkBtnExists = document.getElementsByClassName("bookmark-btn")[0]
+        
+
+        console.log(bookmarkBtnExists)
+    }
 })();
