@@ -26,7 +26,7 @@
             youtubeLeftControls = document.getElementsByClassName("ytp-left-controls")[0];
             youtubePlayer = document.getElementsByClassName("video-stream")[0];
             
-            youtubeLeftControls.append(bookmarkBtn);
+            youtubeLeftControls.appendChild(bookmarkBtn);
             bookmarkBtn.addEventListener("click", addNewBookmarkEventHandler);
         }
     }
